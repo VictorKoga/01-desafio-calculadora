@@ -48,14 +48,14 @@ nome-do-repositorio/
 ## Como Usar
 
 ## Clone o Repositório
-
+```plaintext
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 npm install
 npm start
-
+```plaintext
 npm install
 Inicie a Aplicação
-
+```plaintext
 npm start
 Acesse no Navegador Abra http://localhost:3000 para ver a aplicação em funcionamento.
