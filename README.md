@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Calculadora em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma **calculadora simples e moderna** desenvolvida em **React**. Este projeto implementa funcionalidades básicas e avançadas de cálculo, permitindo aos usuários realizar operações matemáticas de forma rápida e intuitiva.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Operações Básicas**:
+  - Adição (+)
+  - Subtração (−)
+  - Multiplicação (×)
+  - Divisão (÷)
+- **Operações Avançadas**:
+  - Porcentagem (%)
+  - Inversão de sinal (+/−)
+  - Raiz quadrada (√x)
+  - Elevar ao quadrado (x²)
+  - Inverso (⅟x)
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Styled-components**: Biblioteca para estilização de componentes.
+- **JavaScript**: Linguagem de programação utilizada para a lógica de cálculo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+```plaintext
+nome-do-repositorio/
+├── public/
+│   ├── index.html           # Arquivo HTML principal
+│   └── favicon.ico          # Ícone do aplicativo
+├── src/
+│   ├── components/          # Componentes reutilizáveis
+│   │   ├── Button/          # Componente de botão
+│   │   │   ├── button-index.js  # Lógica do botão
+│   │   │   └── button-style.js  # Estilização do botão
+│   │   ├── Input/           # Componente de input
+│   │   │   ├── input-index.js   # Lógica do input
+│   │   │   └── input-style.js   # Estilização do input
+│   ├── App.js               # Componente principal da aplicação
+│   ├── global.js            # Estilos globais e temas
+│   ├── index.js             # Ponto de entrada da aplicação
+│   ├── styles.js            # Estilo global (reset, etc.)
+├── .gitignore                # Ignorar arquivos no git
+├── package.json              # Dependências e scripts do projeto
+└── README.md                 # Documentação do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Usar
 
-### `npm run build`
+## Clone o Repositório
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+npm install
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
+Inicie a Aplicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+Acesse no Navegador Abra http://localhost:3000 para ver a aplicação em funcionamento.
